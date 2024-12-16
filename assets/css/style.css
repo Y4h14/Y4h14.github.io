@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 4em;
+    font-family: "Merriweather", serif;
+    margin: 0;
+}
+a.icon-link img {
+    width: 5px;
+    height: 5px;
+    transition: transform 0.3s;
+  }
+a.icon-link img:hover {
+    transform: scale(1.2);
+  }
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5em;
+}
